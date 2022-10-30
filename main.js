@@ -4,5 +4,10 @@ const newToDo = new ToDoList();
 const button = document.getElementById('addBtn');
 button.addEventListener('click', () => {
     newToDo.getToDo();
+    newToDo.addCheck();
+
 });
+// newToDo.closeButton();
+// newToDo.hideClosedItem();
+
 
